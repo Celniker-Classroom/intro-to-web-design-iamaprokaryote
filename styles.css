@@ -1,5 +1,6 @@
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(rgb(131, 197, 223), rgb(98, 153, 224));
 }
 h1 {
     color:#013852;
