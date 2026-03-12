@@ -5,17 +5,39 @@ body{
     padding: 10px;
     margin: 20px auto;
     max-width: 600px;
-    text-align: center;
+    
 }
 
-img{
+img {
     border-radius: 15px;
-    margin: 20px auto;
-    max-width: 600px;
+    width: 300px;
+    margin-bottom: 10px;
 }
 
 a {
     color:#013852;
+    display: block; 
+    margin:auto;
+}
+
+#pic1 {
+    float: left;
+    margin-right: 20px;
+}
+
+#pic2 {
+    float: right;
+    margin-left: 20px;
+}
+
+#pic3 {
+    float: left;
+    margin-right: 20px;
+}
+
+h3 {
+    clear: both;
+    padding-top: 20px;
 }
 
 .titlebox {
