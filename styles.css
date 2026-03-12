@@ -4,14 +4,32 @@ body{
     color:#013852;
 }
 
-h1 {
-    color:#013852;
-}
-
 img{
     border-radius: 15px;
 }
 
 a {
     color:#013852;
+}
+
+.titlebox {
+  background-color: #013852; 
+  color: rgb(131, 197, 223);
+  padding: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.titlebox2 {
+  background-color: #013852; 
+  color: rgb(131, 197, 223);
+  padding: 15px;
+  margin: 10px auto;
+  max-width: 600px;
+  text-align: center;
+  border-radius: 28px;
+  font-style: italic;
+  font-size: 13px;
 }
