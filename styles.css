@@ -57,6 +57,7 @@ h3 {
     background-color: #013852; 
     color: rgb(131, 197, 223);
     padding: 15px;
+    padding-top:0px;
     margin: 20px auto;
     max-width: 400px;
     border-radius: 28px;
@@ -89,4 +90,5 @@ h3 {
 .footer {
     text-align: center;
     font-style: italic;
+    padding-top: 0px;
 }
