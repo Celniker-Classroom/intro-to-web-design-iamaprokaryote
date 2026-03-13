@@ -1,10 +1,13 @@
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: linear-gradient(rgb(144, 203, 226), rgb(87, 147, 224));
+    background-image: linear-gradient(rgb(156, 203, 221), rgb(67, 135, 224));
     color:#013852;
     padding: 10px;
-    margin: 20px auto;
+}
+
+#container{
     max-width: 800px;
+    margin: 20px auto;
 }
 
 img {
@@ -50,11 +53,21 @@ h3 {
     padding-top: 20px;
 }
 
+.funfacts {
+    background-color: #013852; 
+    color: rgb(131, 197, 223);
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 28px;
+    text-align: center;
+}
+
 .titlebox {
   background-color: #013852; 
   color: rgb(131, 197, 223);
-  font-size: 25px;
-  padding: 10px;
+  font-size: 30px;
+  padding: 5px;
   margin: 20px auto;
   max-width: 800px;
   text-align: center;
