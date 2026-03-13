@@ -11,6 +11,59 @@ body{
     margin: 20px auto;
 }
 
+@media (max-width: 1200px) {
+  #container {
+    max-width: 1000px;
+  }
+  img {
+    width: 250px;
+  }
+  .titlebox {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 992px) {
+  #container {
+    max-width: 90%;
+  }
+  img {
+    width: 200px;
+  }
+  .titlebox {
+    font-size: 20px;
+  }
+  .titlebox2 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  #container {
+    max-width: 100%;
+    min-width: unset;
+    padding: 5px;
+  }
+  img {
+    width: 100%;
+    max-width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .titlebox {
+    font-size: 16px;
+    text-align: center;
+  }
+  .titlebox2 {
+    font-size: 10px;
+    text-align: center;
+  }
+  .paragraph {
+    font-size: 1em;
+  }
+}
+
 img {
     border-radius: 15px;
     width: 300px;
